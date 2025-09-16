@@ -106,8 +106,8 @@ export default function Progress() {
 
 
   return (
-<div className='flex justify-center bg-black'>
-    <div className="p-6 space-y-6 max-w-96 self-center">
+<div className='flex justify-center '>
+    <div className="p-6 space-y-6 max-w-120 min-w-120 self-center bg-black">
       {/* Header */}
       <div className="text-center mb-8">
         <h2 className="text-2xl font-bold text-white mb-2">Your Progress</h2>
